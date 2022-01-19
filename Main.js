@@ -29,13 +29,13 @@ function calcular() {
   let quantidadeTotalRefri =
     refriPorPessoa(duracao) * adultos + (carnePorPessoa(duracao) / 2) * crianças
 
-  resultado.innerHTML = `<p><img src="./img/meat.png"> ${
+  resultado.innerHTML = `<p><img src="meat.png"> ${
     Math.ceil(quantidadeTotalCarne / 1000)
   }Kg de Carne.</p>`
-  resultado.innerHTML += `<p><img src="./img/cerveja.png"> ${Math.ceil(
+  resultado.innerHTML += `<p><img src="cerveja.png"> ${Math.ceil(
     quantidadeTotalCerveja / 355
   )} latinhas de Breja</p>`
-  resultado.innerHTML += `<p><img src="./img/refrigerantes.png"> ${Math.ceil(
+  resultado.innerHTML += `<p><img src="refrigerantes.png"> ${Math.ceil(
     quantidadeTotalRefri / 2000
   )} litros de Refri</p>`
 
