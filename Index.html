@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Churrascômetro</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Churrascômetro</h1>
+      <div class="dados">
+        <div class="inputs">
+          <input
+            type="number"
+            name="adultos"
+            id="adultos"
+            placeholder="Quantidade de Adultos"
+          />
+          <input
+            type="number"
+            name="crianças"
+            id="crianças"
+            placeholder="Quantidade de Crianças"
+          />
+          <input
+            type="number"
+            name="duracao"
+            id="duracao"
+            placeholder="Duração (h)"
+          />
+          <button onclick="calcular()">Calcular</button>
+        </div>
+
+        
+        <div id="resultado">
+          <img/>
+        </div>
+      </div>
+    </div>
+    
+
+  
+    <script src="./Main.js"></script>
+  </body>
+</html>
